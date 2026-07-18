@@ -1,36 +1,35 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Upload and discover handwritten notes for Cambridge International, Edexcel and AQA A Level subjects." />
-  <title>LevelNotes — A Level Handwritten Notes</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Kalam:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Upload and discover handwritten notes for Cambridge International, Edexcel and AQA A Level subjects." name="description"/>
+<title>LevelNotes — A Level Handwritten Notes</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Kalam:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="styles.css" rel="stylesheet">
+</link></head>
 <body>
-  <header class="site-header">
-    <a class="logo" href="#">
-      <span class="logo-mark">A</span>
-      <span>LevelNotes</span>
-    </a>
-
-    <nav class="nav-links" aria-label="Main navigation">
-      <a href="#subjects">Subjects</a>
-      <a href="#notes">Browse notes</a>
-      <a href="#upload">Upload</a>
-      <button class="ghost-button" id="themeToggle" type="button" aria-label="Toggle dark mode">◐</button>
-      <a href="#notes" class="nav-cta">Browse notes</a>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero">
-      <div class="hero-copy">
-        <h1>Hi guys.</h1>
-        <p>
+<header class="site-header">
+<a class="logo" href="#">
+<span class="logo-mark">A</span>
+<span>LevelNotes</span>
+</a>
+<nav aria-label="Main navigation" class="nav-links">
+<a href="#subjects">Subjects</a>
+<a href="#notes">Browse notes</a>
+<a href="#upload">Upload</a>
+<button aria-label="Toggle dark mode" class="ghost-button" id="themeToggle" type="button">◐</button>
+<a class="nav-cta" href="#notes">Browse notes</a>
+</nav>
+</header>
+<main>
+<section class="hero">
+<div class="hero-copy">
+<h1>Hi guys.</h1>
+<p>
           As I have now graduated from SIS, I am left with many notes and other practice material that I will note (get the pun) be needing.
           Therefore, why not share it with those who will write the A Level exams in the next cycle.
           I have compiled these notes throughout my JC2 year. They are handwritten and you can download the notes for each chapter.
@@ -41,261 +40,153 @@
           All the very best. Contact me if you have any questions, and I'll be happy to help you out anytime :)
           - Kartik
         </p>
+<div class="hero-actions">
+<a class="primary-button" href="#notes">Browse A Level notes</a>
+</div>
+<div class="hero-stats">
+<div><strong>5</strong><span>A Level subjects</span></div>
+<div><strong>9231–9618</strong><span>your syllabus codes</span></div>
+<div><strong>A Level</strong><span>focused content</span></div>
+</div>
+</div>
 
-        <div class="hero-actions">
-          <a href="#notes" class="primary-button">Browse A Level notes</a>
-        </div>
-
-        <div class="hero-stats">
-          <div><strong>5</strong><span>A Level subjects</span></div>
-          <div><strong>9231–9618</strong><span>your syllabus codes</span></div>
-          <div><strong>A Level</strong><span>focused content</span></div>
-        </div>
-      </div>
-      </div>
-
-      <div class="hero-visual" aria-label="Example A Level handwritten note">
-        <div class="paper-card paper-back"></div>
-        <article class="paper-card paper-front">
-          <div class="paper-top">
-            <span>9709 Mathematics</span>
-            <span>Pure 3</span>
-          </div>
-          <h2>Differential Equations</h2>
-          <p class="handwritten">Separate the variables:</p>
-          <p class="handwritten">dy / f(y) = g(x) dx</p>
-          <p class="handwritten">Integrate both sides, then use the initial condition.</p>
-          <div class="formula">∫ 1/f(y) dy = ∫ g(x) dx</div>
-          <div class="paper-footer">
-            <span>Cambridge International</span>
-            <span>♡ 214</span>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="subjects-section" id="subjects">
-      <div class="section-heading">
-        <div>
-          <span class="eyebrow">Choose a subject</span>
-          <h2>Everything you need, organized by syllabus.</h2>
-        </div>
-        <p>A Level content only for 9709, 9701, 9702 and 9618. Both AS and A Level content remain available for 9231.</p>
-      </div>
-
-      <div class="subject-grid">
-        <button data-subject="Further Mathematics"><span>∫</span><strong>Further Mathematics</strong><small>9231 • Further Pure, Probability & Statistics, Mechanics</small></button>
-        <button data-subject="Mathematics"><span>∑</span><strong>Mathematics</strong><small>9709 • Pure Mathematics, Probability & Statistics, Mechanics</small></button>
-        <button data-subject="Chemistry"><span>⌬</span><strong>Chemistry</strong><small>9701 • Physical, Inorganic and Organic Chemistry</small></button>
-        <button data-subject="Physics"><span>⚛</span><strong>Physics</strong><small>9702 • AS and A2 Physics</small></button>
-        <button data-subject="Computer Science"><span>&lt;/&gt;</span><strong>Computer Science</strong><small>9618 • Theory, Programming and Problem-solving</small></button>
-      </div>
-    </section>
-
-    
-<section class="topic-browser-section" id="topic-browser">
-  <div class="section-heading">
-    <div>
-      <span class="eyebrow">A Level syllabus explorer</span>
-      <h2>Browse notes by exact A Level topic.</h2>
-    </div>
-    <p>I never took notes for pure maths 3, my sincere apologies, not a flex, please take notes, there is a lot of content to memorize and formulas to remember. <b>Always take notes for all subjects and cross-check with your syllabus to make sure everything is finished.</b></p>
-  </div>
-  <div class="topic-browser">
-    <aside class="subject-tabs" aria-label="Choose subject">
-      <button class="subject-tab active" data-topic-subject="Further Mathematics"><span>9231</span>Further Mathematics</button><button class="subject-tab " data-topic-subject="Mathematics"><span>9709</span>Mathematics</button><button class="subject-tab " data-topic-subject="Chemistry"><span>9701</span>Chemistry</button><button class="subject-tab " data-topic-subject="Physics"><span>9702</span>Physics</button><button class="subject-tab " data-topic-subject="Computer Science"><span>9618</span>Computer Science</button>
-    </aside>
-    <div class="topic-panel-wrap">
-      <section class="subject-topic-panel active" data-topic-panel="Further Mathematics">
-          <div class="topic-panel-heading">
-            <div><span class="syllabus-pill">9231</span><h3>Further Mathematics</h3></div>
-            <p>24 syllabus divisions</p>
-          </div>
-          <div class="topic-groups"><details class="topic-group" open>
-              <summary>Paper 1 — Further Pure Mathematics 1<span>7 topics</span></summary>
-              <ul>
-  <li>
-    <a class="topic-link"
-       data-subject="Further Mathematics"
-       data-topic="Roots of Polynomials"
-       href="https://drive.google.com/file/d/1X_yQrUnneEKuSmYyvjNcGynsfSyygRAc/view"
-       target="_blank"
-       rel="noopener noreferrer">
-      Roots of Polynomials
-    </a>
-  </li>
-
-  <li>
-    <a class="topic-link"
-       data-subject="Further Mathematics"
-       data-topic="Rational Functions"
-       href="https://drive.google.com/file/d/1xbiO8Uz_v0OKemLeXiX5ps01jcMSpvTa/view"
-       target="_blank"
-       rel="noopener noreferrer">
-      Rational Functions
-    </a>
-  </li>
-
-  <li>
-    <a class="topic-link"
-       data-subject="Further Mathematics"
-       data-topic="Summation of Series"
-       href="https://drive.google.com/file/d/1MTO04mzSJ81ACzCt5vxcqgR3Ydb72dBN/view"
-       target="_blank"
-       rel="noopener noreferrer">
-      Summation of Series
-    </a>
-  </li>
-
-  <li>
-    <a class="topic-link"
-       data-subject="Further Mathematics"
-       data-topic="Matrices 1"
-       href="https://drive.google.com/file/d/1cuFp2QZ05lPeTL2sjkox-OFK__Olm8ws/view"
-       target="_blank"
-       rel="noopener noreferrer">
-      Matrices 1
-    </a>
-  </li>
-
-  <li>
-    <a class="topic-link"
-       data-subject="Further Mathematics"
-       data-topic="Polar Coordinates"
-       href="https://drive.google.com/file/d/1Dd75jqEU6xRDM3NdwcsAlZdC08U4VgCW/view"
-       target="_blank"
-       rel="noopener noreferrer">
-      Polar Coordinates
-    </a>
-  </li>
-
-  <li>
-    <a class="topic-link"
-       data-subject="Further Mathematics"
-       data-topic="Vectors"
-       href="https://drive.google.com/file/d/1VZk7Z7ROKy0wccmiCpkJbA1A7ItFNRqK/view"
-       target="_blank"
-       rel="noopener noreferrer">
-      Vectors
-    </a>
-  </li>
-
-  <li>
-    <a class="topic-link"
-       data-subject="Further Mathematics"
-       data-topic="Proof by Induction"
-       href="https://drive.google.com/file/d/1ryLkJa84ZI9KA6CyvzRHrXhA8e83rifG/view"
-       target="_blank"
-       rel="noopener noreferrer">
-      Proof by Induction
-    </a>
-  </li>
-</ul>
-            </details><details class="topic-group" open>
-              <summary>Paper 2 — Further Pure Mathematics 2<span>6 topics</span></summary>
-              <ul><li><a class="topic-link" data-subject="Further Mathematics" data-topic="2.1 Hyperbolic functions" href="Notes PDF/FP2/Hyperbolic Functions.pdf" target="_blank" rel="noopener noreferrer">2.1 Hyperbolic functions</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="2.2 Matrices" href="Notes PDF/FP2/Matrices 2.pdf" target="_blank" rel="noopener noreferrer">2.2 Matrices</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="2.3 Differentiation" href="Notes PDF/FP2/Differentiation FM.pdf" target="_blank" rel="noopener noreferrer">2.3 Differentiation</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="2.4 Integration" href="Notes PDF/FP2/Integration FM.pdf" target="_blank" rel="noopener noreferrer">2.4 Integration</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="2.5 Complex numbers" href="Notes PDF/FP2/Complex Numbers FM.pdf" target="_blank" rel="noopener noreferrer">2.5 Complex numbers</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="2.6 Differential equations" href="Notes PDF/FP2/Differential Equations FM.pdf" target="_blank" rel="noopener noreferrer">2.6 Differential equations</a></li></ul>
-            </details><details class="topic-group" open>
-              <summary>Paper 3 — Further Mechanics<span>6 topics</span></summary>
-              <ul><li><a class="topic-link" data-subject="Further Mathematics" data-topic="3.1 Motion of a projectile" href="Notes PDF/FMech/Projectile Motion.pdf" target="_blank" rel="noopener noreferrer">3.1 Motion of a projectile</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="3.2 Equilibrium of a rigid body" href="Notes PDF/FMech/Eqn of Rigid Body.pdf" target="_blank" rel="noopener noreferrer">3.2 Equilibrium of a rigid body</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="3.3 Circular motion" href="Notes PDF/FMech/Circular Motion.pdf" target="_blank" rel="noopener noreferrer">3.3 Circular motion</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="3.4 Hooke’s law" href="Notes PDF/FMech/Hooke's Law.pdf" target="_blank" rel="noopener noreferrer">3.4 Hooke’s law</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="3.5 Linear motion under a variable force" href="Notes PDF/FMech/Linear Motion.pdf" target="_blank" rel="noopener noreferrer">3.5 Linear motion under a variable force</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="3.6 Momentum" href="Notes PDF/FMech/Momentum.pdf" target="_blank" rel="noopener noreferrer">3.6 Momentum</a></li></ul>
-            </details><details class="topic-group" open>
-              <summary>Paper 4 — Further Probability & Statistics<span>5 topics</span></summary>
-              <ul><li><a class="topic-link" data-subject="Further Mathematics" data-topic="4.1 Continuous random variables" href="Notes PDF/FStats/Continuous Random Variables.pdf" target="_blank" rel="noopener noreferrer">4.1 Continuous random variables</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="4.2 Inference using normal and t-distributions" href="Notes PDF/FStats/Inferential Statistics.pdf" target="_blank" rel="noopener noreferrer">4.2 Inference using normal and t-distributions</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="4.3 Chi-squared tests" href="Notes PDF/FStats/Chi Squared Test.pdf" target="_blank" rel="noopener noreferrer">4.3 Chi-squared tests</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="4.4 Non-parametric tests" href="Notes PDF/FStats/Non-Parametric Tests.pdf" target="_blank" rel="noopener noreferrer">4.4 Non-parametric tests</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="4.5 Probability generating functions" href="Notes PDF/FStats/PGF.pdf" target="_blank" rel="noopener noreferrer">4.5 Probability generating functions</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="4.1 Continuous random variables" href="Notes PDF/FStats/Conditions for Tests.pdf" target="_blank" rel="noopener noreferrer">Extra Notes on Conditions</a></li></ul>
-            </details></div>
-        </section><section class="subject-topic-panel " data-topic-panel="Mathematics">
-          <div class="topic-panel-heading">
-            <div><span class="syllabus-pill">9709</span><h3>Mathematics</h3></div>
-            <p>14 syllabus divisions</p>
-          </div>
-          <div class="topic-groups"><details class="topic-group" >
-              <summary>Paper 4 — Mechanics<span>5 topics</span></summary>
-              <ul><li><button class="topic-link" data-subject="Mathematics" data-topic="3.1 Algebra">3.1 Algebra</button></li><li><button class="topic-link" data-subject="Mathematics" data-topic="3.2 Logarithmic and exponential functions">3.2 Logarithmic and exponential functions</button></li><li><button class="topic-link" data-subject="Mathematics" data-topic="3.3 Trigonometry">3.3 Trigonometry</button></li><li><button class="topic-link" data-subject="Mathematics" data-topic="3.4 Differentiation">3.4 Differentiation</button></li><li><button class="topic-link" data-subject="Mathematics" data-topic="3.5 Integration">3.5 Integration</button></li><li><button class="topic-link" data-subject="Mathematics" data-topic="3.6 Numerical solution of equations">3.6 Numerical solution of equations</button></li><li><button class="topic-link" data-subject="Mathematics" data-topic="3.7 Vectors">3.7 Vectors</button></li><li><button class="topic-link" data-subject="Mathematics" data-topic="3.8 Differential equations">3.8 Differential equations</button></li><li><button class="topic-link" data-subject="Mathematics" data-topic="3.9 Complex numbers">3.9 Complex numbers</button></li></ul>
-            </details>
-        </section><section class="subject-topic-panel " data-topic-panel="Chemistry">
-          <div class="topic-panel-heading">
-            <div><span class="syllabus-pill">9701</span><h3>Chemistry</h3></div>
-            <p>15 syllabus divisions</p>
-          </div>
-          <div class="topic-groups"><details class="topic-group" >
-              <summary>A Level Physical Chemistry<span>4 topics</span></summary>
-              <ul><li><a class="topic-link" data-subject="Chemistry" data-topic="23 Chemical energetics" href="Notes PDF/Chemistry/Chemical Energetics.pdf" target="_blank" rel="noopener noreferrer">23 Chemical energetics</a></li><li><a class="topic-link" data-subject="Chemistry" data-topic="24 Electrochemistry" href="Notes PDF/Chemistry/Electrochemistry.pdf" target="_blank" rel="noopener noreferrer">24 Electrochemistry</a></li><li><a class="topic-link" data-subject="Chemistry" data-topic="25 Equilibria" href="Notes PDF/Chemistry/Equilibria.pdf" target="_blank" rel="noopener noreferrer">25 Equilibria</a></li><li><a class="topic-link" data-subject="Chemistry" data-topic="26 Reaction kinetics" href="Notes PDF/Chemistry/Reaction Kinetics.pdf" target="_blank" rel="noopener noreferrer">26 Reaction kinetics</a></li></ul>
-            </details><details class="topic-group" >
-              <summary>A Level Inorganic Chemistry<span>2 topics</span></summary>
-              <ul><li><a class="topic-link" data-subject="Chemistry" data-topic="27 Group 2" href="Notes PDF/Chemistry/Group 2.pdf" target="_blank" rel="noopener noreferrer">27 Group 2</a></li><li><a class="topic-link" data-subject="Chemistry" data-topic="28 Chemistry of transition elements" href="Notes PDF/Chemistry/Transition Elements.pdf" target="_blank" rel="noopener noreferrer">28 Chemistry of transition elements</a></li></ul>
-            </details><details class="topic-group" >
-              <summary>A Level Organic Chemistry<span>8 topics</span></summary>
-              <ul><li><a class="topic-link" data-subject="Chemistry" data-topic="29 Introduction to A Level organic chemistry" href="Notes PDF/Chemistry/Intro to Org Chem.pdf" target="_blank" rel="noopener noreferrer">29 Introduction to A Level organic chemistry</a></li><li><a class="topic-link" data-subject="Chemistry" data-topic="30 Hydrocarbons" href="Notes PDF/Chemistry/Hydrocarbons.pdf" target="_blank" rel="noopener noreferrer">30 Hydrocarbons</a></li><li><a class="topic-link" data-subject="Chemistry" data-topic="31 Halogen compounds" href="Notes PDF/Chemistry/Halogen Compounds.pdf" target="_blank" rel="noopener noreferrer">31 Halogen compounds</a></li><li><a class="topic-link" data-subject="Chemistry" data-topic="32 Hydroxy compounds" href="Notes PDF/Chemistry/Hydroxy Compounds.pdf" target="_blank" rel="noopener noreferrer">32 Hydroxy compounds</a></li><li><a class="topic-link" data-subject="Chemistry" data-topic="33 Carboxylic acids and derivatives" href="Notes PDF/Chemistry/Carboxylic Acids.pdf" target="_blank" rel="noopener noreferrer">33 Carboxylic acids and derivatives</a></li><li><a class="topic-link" data-subject="Chemistry" data-topic="34 Nitrogen compounds" href="Notes PDF/Chemistry/Nitrogen Compounds.pdf" target="_blank" rel="noopener noreferrer">34 Nitrogen compounds</a></li><li><a class="topic-link" data-subject="Chemistry" data-topic="35 Polymerisation" href="Notes PDF/Chemistry/Polymerization.pdf target="_blank" rel="noopener noreferrer">35 Polymerisation</a></li></ul>
-            </details><details class="topic-group" >
-              <summary>A Level Analysis<span>1 topics</span></summary>
-              <ul><li><a class="topic-link" data-subject="Chemistry" data-topic="37 Analytical techniques" href="Notes PDF/Chemistry/Analytical Techniques.pdfi" target="_blank" rel="noopener noreferrer">37 Analytical techniques</a></li></ul>
-            </details></div>
-        </section><section class="subject-topic-panel " data-topic-panel="Physics">
-          <div class="topic-panel-heading">
-            <div><span class="syllabus-pill">9702</span><h3>Physics</h3></div>
-            <p>15 syllabus divisions</p>
-          </div>
-          <div class="topic-groups"><details class="topic-group" >
-              <summary>A Level Subject Content<span>14 topics</span></summary>
-              <ul>
-  <li><a class="topic-link" data-subject="Physics" data-topic="12 Motion in a circle" href="Notes PDF/Physics/Motion in a Circle.pdf" target="_blank" rel="noopener noreferrer">12 Motion in a circle</a></li>
-
-  <li><a class="topic-link" data-subject="Physics" data-topic="13 Gravitational fields" href="Notes PDF/Physics/Gravitation.pdf" target="_blank" rel="noopener noreferrer">13 Gravitational fields</a></li>
-
-  <li><a class="topic-link" data-subject="Physics" data-topic="14 Temperature" href="Notes PDF/Physics/Temperature.pdf" target="_blank" rel="noopener noreferrer">14 Temperature and Thermodynamics</a></li>
-
-  <li><a class="topic-link" data-subject="Physics" data-topic="15 Ideal gases" href="Notes PDF/Physics/Ideal Gas.pdf" target="_blank" rel="noopener noreferrer">15 Ideal gases</a></li>
-
-  <li><a class="topic-link" data-subject="Physics" data-topic="17 Oscillations" href="Notes PDF/Physics/Oscillations.pdf" target="_blank" rel="noopener noreferrer">17 Oscillations</a></li>
-
-  <li><a class="topic-link" data-subject="Physics" data-topic="18 Electric fields" href="Notes PDF/Physics/Electric Fields.pdf" target="_blank" rel="noopener noreferrer">18 Electric fields</a></li>
-
-  <li><a class="topic-link" data-subject="Physics" data-topic="19 Capacitance" href="Notes PDF/Physics/Capacitance.pdf" target="_blank" rel="noopener noreferrer">19 Capacitance</a></li>
-
-  <li><a class="topic-link" data-subject="Physics" data-topic="20 Magnetic fields" href="Notes PDF/Physics/Magnetic Fields.pdf" target="_blank" rel="noopener noreferrer">20 Magnetic fields</a></li>
-
-  <li><a class="topic-link" data-subject="Physics" data-topic="21 Alternating currents" href="Notes PDF/Physics/Alternating Currents.pdf" target="_blank" rel="noopener noreferrer">21 Alternating currents</a></li>
-
-  <li><a class="topic-link" data-subject="Physics" data-topic="22 Quantum physics" href="Notes PDF/Physics/Quantum Physics.pdf" target="_blank" rel="noopener noreferrer">22 Quantum physics</a></li>
-
-  <li><a class="topic-link" data-subject="Physics" data-topic="23 Nuclear physics" href="Notes PDF/Physics/Nuclear Physics.pdf" target="_blank" rel="noopener noreferrer">23 Nuclear physics</a></li>
-
-  <li><a class="topic-link" data-subject="Physics" data-topic="24 Medical physics" href="Notes PDF/Physics/Medical Physics.pdf" target="_blank" rel="noopener noreferrer">24 Medical physics</a></li>
-
-  <li><a class="topic-link" data-subject="Physics" data-topic="25 Astronomy and cosmology" href="Notes PDF/Physics/Astronomy.pdf" target="_blank" rel="noopener noreferrer">25 Astronomy and cosmology</a></li>
-</ul>
-        </section>
-        
-        <section class="subject-topic-panel " data-topic-panel="Computer Science">
-          <div class="topic-panel-heading">
-            <div><span class="syllabus-pill">9618</span><h3>Computer Science</h3></div>
-            <p>22 syllabus divisions</p>
-          </div>
-          <div class="topic-groups"><details class="topic-group" >
-              <summary>Paper 3 and 4<span>16 topics</span></summary>
-              <ul>
-  <li><a class="topic-link" data-subject="Computer Science" data-topic="13 Data representation" href="Notes PDF/CS/Data Representation.pdf" target="_blank" rel="noopener noreferrer">13 Data representation</a></li>
-
-  <li><a class="topic-link" data-subject="Computer Science" data-topic="14 Communication and internet technologies" href="Notes PDF/CS/Communication & IT.pdf" target="_blank" rel="noopener noreferrer">14 Communication and internet technologies</a></li>
-
-  <li><a class="topic-link" data-subject="Computer Science" data-topic="15 Hardware and virtual machines" href="Notes PDF/CS/Hardware & VM.pdf" target="_blank" rel="noopener noreferrer">15 Hardware and virtual machines</a></li>
-
-  <li><a class="topic-link" data-subject="Computer Science" data-topic="16 System software" href="Notes PDF/CS/System Software.pdf" target="_blank" rel="noopener noreferrer">16 System software</a></li>
-
-  <li><a class="topic-link" data-subject="Computer Science" data-topic="17 Security" href="Notes PDF/CS/Security.pdf" target="_blank" rel="noopener noreferrer">17 Security</a></li>
-
-  <li><a class="topic-link" data-subject="Computer Science" data-topic="18 Artificial intelligence" href="Notes PDF/CS/AI.pdf" target="_blank" rel="noopener noreferrer">18 Artificial intelligence</a></li>
-
-  <li><a class="topic-link" data-subject="Computer Science" data-topic="Practical Combined" href="Notes PDF/CS/Practical Combined.pdf" target="_blank" rel="noopener noreferrer">Practical Combined</a></li>
-</ul>
-            </details>
-        </section>
-    </div>
-  </div>
-
-  
+<div aria-label="Example A Level handwritten note" class="hero-visual">
+<div class="paper-card paper-back"></div>
+<article class="paper-card paper-front">
+<div class="paper-top">
+<span>9709 Mathematics</span>
+<span>Pure 3</span>
+</div>
+<h2>Differential Equations</h2>
+<p class="handwritten">Separate the variables:</p>
+<p class="handwritten">dy / f(y) = g(x) dx</p>
+<p class="handwritten">Integrate both sides, then use the initial condition.</p>
+<div class="formula">∫ 1/f(y) dy = ∫ g(x) dx</div>
+<div class="paper-footer">
+<span>Cambridge International</span>
+<span>♡ 214</span>
+</div>
+</article>
+</div>
 </section>
-
-
-
-  <script src="script.js"></script>
-</body>
+<section class="subjects-section" id="subjects">
+<div class="section-heading">
+<div>
+<span class="eyebrow">Choose a subject</span>
+<h2>Everything you need, organized by syllabus.</h2>
+</div>
+<p>A Level content only for 9709, 9701, 9702 and 9618. Both AS and A Level content remain available for 9231.</p>
+</div>
+<div class="subject-grid">
+<button data-subject="Further Mathematics"><span>∫</span><strong>Further Mathematics</strong><small>9231 • Further Pure, Probability &amp; Statistics, Mechanics</small></button>
+<button data-subject="Mathematics"><span>∑</span><strong>Mathematics</strong><small>9709 • Pure Mathematics, Probability &amp; Statistics, Mechanics</small></button>
+<button data-subject="Chemistry"><span>⌬</span><strong>Chemistry</strong><small>9701 • Physical, Inorganic and Organic Chemistry</small></button>
+<button data-subject="Physics"><span>⚛</span><strong>Physics</strong><small>9702 • AS and A2 Physics</small></button>
+<button data-subject="Computer Science"><span>&lt;/&gt;</span><strong>Computer Science</strong><small>9618 • Theory, Programming and Problem-solving</small></button>
+</div>
+</section>
+<section class="topic-browser-section" id="topic-browser">
+<div class="section-heading">
+<div>
+<span class="eyebrow">A Level syllabus explorer</span>
+<h2>Browse notes by exact A Level topic.</h2>
+</div>
+<p>I never took notes for pure maths 3, my sincere apologies, not a flex, please take notes, there is a lot of content to memorize and formulas to remember. <b>Always take notes for all subjects and cross-check with your syllabus to make sure everything is finished.</b></p>
+</div>
+<div class="topic-browser">
+<aside aria-label="Choose subject" class="subject-tabs">
+<button class="subject-tab active" data-topic-subject="Further Mathematics"><span>9231</span>Further Mathematics</button><button class="subject-tab" data-topic-subject="Mathematics"><span>9709</span>Mathematics</button><button class="subject-tab" data-topic-subject="Chemistry"><span>9701</span>Chemistry</button><button class="subject-tab" data-topic-subject="Physics"><span>9702</span>Physics</button><button class="subject-tab" data-topic-subject="Computer Science"><span>9618</span>Computer Science</button>
+</aside>
+<div class="topic-panel-wrap">
+<section class="subject-topic-panel active" data-topic-panel="Further Mathematics">
+<div class="topic-panel-heading">
+<div><span class="syllabus-pill">9231</span><h3>Further Mathematics</h3></div>
+<p>25 syllabus divisions</p>
+</div>
+<div class="topic-groups"><details class="topic-group" open="">
+<summary>Paper 1 — Further Pure Mathematics 1<span>7 topics</span></summary>
+<ul><li><a class="topic-link" data-subject="Further Mathematics" data-topic="1.1 Roots of polynomial equations" href="https://drive.google.com/file/d/1X_yQrUnneEKuSmYyvjNcGynsfSyygRAc/view?usp=drive_web" rel="noopener noreferrer" target="_blank">1.1 Roots of polynomial equations</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="1.2 Rational functions and graphs" href="https://drive.google.com/file/d/1xbiO8Uz_v0OKemLeXiX5ps01jcMSpvTa/view?usp=drive_web" rel="noopener noreferrer" target="_blank">1.2 Rational functions and graphs</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="1.3 Summation of series" href="https://drive.google.com/file/d/1MTO04mzSJ81ACzCt5vxcqgR3Ydb72dBN/view?usp=drive_web" rel="noopener noreferrer" target="_blank">1.3 Summation of series</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="1.4 Matrices" href="https://drive.google.com/file/d/1cuFp2QZ05lPeTL2sjkox-OFK__Olm8ws/view?usp=drive_web" rel="noopener noreferrer" target="_blank">1.4 Matrices</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="1.5 Polar coordinates" href="https://drive.google.com/file/d/1Dd75jqEU6xRDM3NdwcsAlZdC08U4VgCW/view?usp=drive_web" rel="noopener noreferrer" target="_blank">1.5 Polar coordinates</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="1.6 Vectors" href="https://drive.google.com/file/d/1VZk7Z7ROKy0wccmiCpkJbA1A7ItFNRqK/view?usp=drive_web" rel="noopener noreferrer" target="_blank">1.6 Vectors</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="1.7 Proof by induction" href="https://drive.google.com/file/d/1ryLkJa84ZI9KA6CyvzRHrXhA8e83rifG/view?usp=drive_web" rel="noopener noreferrer" target="_blank">1.7 Proof by induction</a></li></ul>
+</details><details class="topic-group" open="">
+<summary>Paper 2 — Further Pure Mathematics 2<span>6 topics</span></summary>
+<ul><li><a class="topic-link" data-subject="Further Mathematics" data-topic="2.1 Hyperbolic functions" href="https://drive.google.com/file/d/1gPTIcE1d2CYyFkZHJVPicTEHP797qqFm/view?usp=drive_web" rel="noopener noreferrer" target="_blank">2.1 Hyperbolic functions</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="2.2 Matrices" href="https://drive.google.com/file/d/1R-hj0UMiNvx6fUQuV2mhNvtDSHGebT0R/view?usp=drive_web" rel="noopener noreferrer" target="_blank">2.2 Matrices</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="2.3 Differentiation" href="https://drive.google.com/file/d/1YiyC8BOqZNAYNw9frtknC1e0N4tbh1QE/view?usp=drive_web" rel="noopener noreferrer" target="_blank">2.3 Differentiation</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="2.4 Integration" href="https://drive.google.com/file/d/1mV0IUul-LVrd82EvKmCGeUpsFy0LqQlr/view?usp=drive_web" rel="noopener noreferrer" target="_blank">2.4 Integration</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="2.5 Complex numbers" href="https://drive.google.com/file/d/11Xstds9p06g4nqQTmYwXY1rnN63k6NVO/view?usp=drive_web" rel="noopener noreferrer" target="_blank">2.5 Complex numbers</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="2.6 Differential equations" href="https://drive.google.com/file/d/1c8vtIv8aUhej0ymeLgHb07ARmW1gwpmn/view?usp=drive_web" rel="noopener noreferrer" target="_blank">2.6 Differential equations</a></li></ul>
+</details><details class="topic-group" open="">
+<summary>Paper 3 — Further Mechanics<span>6 topics</span></summary>
+<ul><li><a class="topic-link" data-subject="Further Mathematics" data-topic="3.1 Motion of a projectile" href="https://drive.google.com/file/d/1l5fpRnxW4_cwfXsJn8DfqT6OhNbeDHWs/view?usp=drive_web" rel="noopener noreferrer" target="_blank">3.1 Motion of a projectile</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="3.2 Equilibrium of a rigid body" href="https://drive.google.com/file/d/1usXT29fMiY455aNYt5TeEwPJXY-4oJZN/view?usp=drive_web" rel="noopener noreferrer" target="_blank">3.2 Equilibrium of a rigid body</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="3.3 Circular motion" href="https://drive.google.com/file/d/1J_i0yvq-mbaMF-L8uPN_BphD_BP8ihhn/view?usp=drive_web" rel="noopener noreferrer" target="_blank">3.3 Circular motion</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="3.4 Hooke’s law" href="https://drive.google.com/file/d/14e14DMxVvSpFqKwHocipal7AkY-31gux/view?usp=drive_web" rel="noopener noreferrer" target="_blank">3.4 Hooke’s law</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="3.5 Linear motion under a variable force" href="https://drive.google.com/file/d/1z-bTTJ3TtcfzcZ4AvQxL-cLiAPaqXzaw/view?usp=drive_web" rel="noopener noreferrer" target="_blank">3.5 Linear motion under a variable force</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="3.6 Momentum" href="https://drive.google.com/file/d/14RKDSBTO7BjOUrXwWqDd1VoVFjCIAsx2/view?usp=drive_web" rel="noopener noreferrer" target="_blank">3.6 Momentum</a></li></ul>
+</details><details class="topic-group" open="">
+<summary>Paper 4 — Further Probability &amp; Statistics<span>6 topics</span></summary>
+<ul><li><a class="topic-link" data-subject="Further Mathematics" data-topic="4.1 Continuous random variables" href="https://drive.google.com/file/d/1PC7L7iQgg-YNkz1WQqowRPVaNuQRWI7R/view?usp=drive_web" rel="noopener noreferrer" target="_blank">4.1 Continuous random variables</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="4.2 Inference using normal and t-distributions" href="https://drive.google.com/file/d/1dcR2uPIVKqqbSJf5w4Wfj4PQZVlCHqf7/view?usp=drive_web" rel="noopener noreferrer" target="_blank">4.2 Inference using normal and t-distributions</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="4.3 Chi-squared tests" href="https://drive.google.com/file/d/1N7IwCiExdETtkjMu18SIcewHZWfXX2H8/view?usp=drive_web" rel="noopener noreferrer" target="_blank">4.3 Chi-squared tests</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="4.4 Non-parametric tests" href="https://drive.google.com/file/d/1mQJ9Aa1gdKzee3NGGsp_8XdizJiBWLWe/view?usp=drive_web" rel="noopener noreferrer" target="_blank">4.4 Non-parametric tests</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="4.5 Probability generating functions" href="https://drive.google.com/file/d/1zz0jEDXN7t0S7tqkRLri2VdQ0SnhdlD3/view?usp=drive_web" rel="noopener noreferrer" target="_blank">4.5 Probability generating functions</a></li><li><a class="topic-link" data-subject="Further Mathematics" data-topic="Extra Notes on Conditions" href="https://drive.google.com/file/d/1TgNDUvnNINZRT7fzC-LcDvwRN3PM76CG/view?usp=drive_web" rel="noopener noreferrer" target="_blank">Extra Notes on Conditions</a></li></ul>
+</details></div>
+</section><section class="subject-topic-panel" data-topic-panel="Mathematics">
+<div class="topic-panel-heading">
+<div><span class="syllabus-pill">9709</span><h3>Mathematics</h3></div>
+<p>14 syllabus divisions</p>
+</div>
+<div class="topic-groups"><details class="topic-group">
+<summary>Paper 4 — Mechanics<span>5 topics</span></summary>
+<ul><li><button class="topic-link" data-subject="Mathematics" data-topic="3.1 Algebra">3.1 Algebra</button></li><li><button class="topic-link" data-subject="Mathematics" data-topic="3.2 Logarithmic and exponential functions">3.2 Logarithmic and exponential functions</button></li><li><button class="topic-link" data-subject="Mathematics" data-topic="3.3 Trigonometry">3.3 Trigonometry</button></li><li><button class="topic-link" data-subject="Mathematics" data-topic="3.4 Differentiation">3.4 Differentiation</button></li><li><button class="topic-link" data-subject="Mathematics" data-topic="3.5 Integration">3.5 Integration</button></li><li><button class="topic-link" data-subject="Mathematics" data-topic="3.6 Numerical solution of equations">3.6 Numerical solution of equations</button></li><li><button class="topic-link" data-subject="Mathematics" data-topic="3.7 Vectors">3.7 Vectors</button></li><li><button class="topic-link" data-subject="Mathematics" data-topic="3.8 Differential equations">3.8 Differential equations</button></li><li><button class="topic-link" data-subject="Mathematics" data-topic="3.9 Complex numbers">3.9 Complex numbers</button></li></ul>
+</details>
+</div></section><section class="subject-topic-panel" data-topic-panel="Chemistry">
+<div class="topic-panel-heading">
+<div><span class="syllabus-pill">9701</span><h3>Chemistry</h3></div>
+<p>15 syllabus divisions</p>
+</div>
+<div class="topic-groups"><details class="topic-group">
+<summary>A Level Physical Chemistry<span>4 topics</span></summary>
+<ul><li><a class="topic-link" data-subject="Chemistry" data-topic="23 Chemical energetics" href="https://drive.google.com/file/d/1r9VkB5oQT6vkkIT5CQviywXV34sibuvQ/view?usp=drive_web" rel="noopener noreferrer" target="_blank">23 Chemical energetics</a></li><li><a class="topic-link" data-subject="Chemistry" data-topic="24 Electrochemistry" href="https://drive.google.com/file/d/1lx-cRUFnonjQUAp_d-T_KYCY78MD9jFx/view?usp=drive_web" rel="noopener noreferrer" target="_blank">24 Electrochemistry</a></li><li><a class="topic-link" data-subject="Chemistry" data-topic="25 Equilibria" href="https://drive.google.com/file/d/1FRYSQYY5mRh4FKSiZq5Di3Fw1baxSatY/view?usp=drive_web" rel="noopener noreferrer" target="_blank">25 Equilibria</a></li><li><a class="topic-link" data-subject="Chemistry" data-topic="26 Reaction kinetics" href="https://drive.google.com/file/d/1tNZU7fFWqR5icRMHHKuROrlasA1w7qbV/view?usp=drive_web" rel="noopener noreferrer" target="_blank">26 Reaction kinetics</a></li></ul>
+</details><details class="topic-group">
+<summary>A Level Inorganic Chemistry<span>2 topics</span></summary>
+<ul><li><a class="topic-link" data-subject="Chemistry" data-topic="27 Group 2" href="https://drive.google.com/file/d/1vIxbh-PztPyRqIPfSnwUFa_kp9UiHU0L/view?usp=drive_web" rel="noopener noreferrer" target="_blank">27 Group 2</a></li><li><a class="topic-link" data-subject="Chemistry" data-topic="28 Chemistry of transition elements" href="https://drive.google.com/file/d/1XPOWE8Gw8AXYRU3Mn_fnvISnoaqZXWiv/view?usp=drive_web" rel="noopener noreferrer" target="_blank">28 Chemistry of transition elements</a></li></ul>
+</details><details class="topic-group">
+<summary>A Level Organic Chemistry<span>7 topics</span></summary>
+<ul><li><a class="topic-link" data-subject="Chemistry" data-topic="29 Introduction to A Level organic chemistry" href="https://drive.google.com/file/d/14gFX0rFM8vBXyjVKf7xyCLoNOZfiUouu/view?usp=drive_web" rel="noopener noreferrer" target="_blank">29 Introduction to A Level organic chemistry</a></li><li><a class="topic-link" data-subject="Chemistry" data-topic="30 Hydrocarbons" href="https://drive.google.com/file/d/17PQIebWYGp93JLoMOjHOuXdJWmS1OLu2/view?usp=drive_web" rel="noopener noreferrer" target="_blank">30 Hydrocarbons</a></li><li><a class="topic-link" data-subject="Chemistry" data-topic="31 Halogen compounds" href="https://drive.google.com/file/d/1EIyDnj3O-_6iNmFjCFcvCX31yVZAgrY1/view?usp=drive_web" rel="noopener noreferrer" target="_blank">31 Halogen compounds</a></li><li><a class="topic-link" data-subject="Chemistry" data-topic="32 Hydroxy compounds" href="https://drive.google.com/file/d/1qyf4aMWzCIChDaeClN_plBJ-1bw1zKjD/view?usp=drive_web" rel="noopener noreferrer" target="_blank">32 Hydroxy compounds</a></li><li><a class="topic-link" data-subject="Chemistry" data-topic="33 Carboxylic acids and derivatives" href="https://drive.google.com/file/d/1rD3Ex8d1GRPop32fd3ke0ZpKCI7FsACc/view?usp=drive_web" rel="noopener noreferrer" target="_blank">33 Carboxylic acids and derivatives</a></li><li><a class="topic-link" data-subject="Chemistry" data-topic="34 Nitrogen compounds" href="https://drive.google.com/file/d/1VcG6fLVkt-UQKy0leUDFu5rjX82Uo06M/view?usp=drive_web" rel="noopener noreferrer" target="_blank">34 Nitrogen compounds</a></li><li><a _blank"="" class="topic-link" data-subject="Chemistry" data-topic="35 Polymerisation" href="https://drive.google.com/file/d/1wYFKJTbi-mG2k0c5W2TRaQPgYC2_hkNT/view?usp=drive_web" rel="noopener noreferrer">35 Polymerisation</a></li></ul>
+</details><details class="topic-group">
+<summary>A Level Analysis<span>1 topics</span></summary>
+<ul><li><a class="topic-link" data-subject="Chemistry" data-topic="37 Analytical techniques" href="https://drive.google.com/file/d/1H5GQIxt2CmALHmxhwlQOP03kDv_aHTHK/view?usp=drive_web" rel="noopener noreferrer" target="_blank">37 Analytical techniques</a></li></ul>
+</details></div>
+</section><section class="subject-topic-panel" data-topic-panel="Physics">
+<div class="topic-panel-heading">
+<div><span class="syllabus-pill">9702</span><h3>Physics</h3></div>
+<p>13 syllabus divisions</p>
+</div>
+<div class="topic-groups"><details class="topic-group">
+<summary>A Level Subject Content<span>13 topics</span></summary>
+<ul>
+<li><a class="topic-link" data-subject="Physics" data-topic="12 Motion in a circle" href="https://drive.google.com/file/d/1Jw-hw0NB1n3I5EXu7Vta7an-Oi7gLIvy/view?usp=drive_web" rel="noopener noreferrer" target="_blank">12 Motion in a circle</a></li>
+<li><a class="topic-link" data-subject="Physics" data-topic="13 Gravitational fields" href="https://drive.google.com/file/d/1hYpvEP4KTZl27Uz0XXhEK1rm2ThJEPNr/view?usp=drive_web" rel="noopener noreferrer" target="_blank">13 Gravitational fields</a></li>
+<li><a class="topic-link" data-subject="Physics" data-topic="14 Temperature" href="https://drive.google.com/file/d/1tVPDaCAiGDgCfcrz9tBkyIBrCivfzL1a/view?usp=drive_web" rel="noopener noreferrer" target="_blank">14 Temperature and Thermodynamics</a></li>
+<li><a class="topic-link" data-subject="Physics" data-topic="15 Ideal gases" href="https://drive.google.com/file/d/1ptax7rFs2FertChu0Yrd0NPc_6ktfXzl/view?usp=drive_web" rel="noopener noreferrer" target="_blank">15 Ideal gases</a></li>
+<li><a class="topic-link" data-subject="Physics" data-topic="17 Oscillations" href="https://drive.google.com/file/d/1B1-_aGziewb1KOz-tqUKaO7eOqGSZgkj/view?usp=drive_web" rel="noopener noreferrer" target="_blank">17 Oscillations</a></li>
+<li><a class="topic-link" data-subject="Physics" data-topic="18 Electric fields" href="https://drive.google.com/file/d/1LBNm9Fg6TrhuGNArlsNXwXVf3ra6Y3rm/view?usp=drive_web" rel="noopener noreferrer" target="_blank">18 Electric fields</a></li>
+<li><a class="topic-link" data-subject="Physics" data-topic="19 Capacitance" href="https://drive.google.com/file/d/1RUWlR9UZvocmtrQ_QcKx5bqUb4dbbpkh/view?usp=drive_web" rel="noopener noreferrer" target="_blank">19 Capacitance</a></li>
+<li><a class="topic-link" data-subject="Physics" data-topic="20 Magnetic fields" href="https://drive.google.com/file/d/1Lv6OCsYNPT5DocdX2sSt-lx_FWup0-Km/view?usp=drive_web" rel="noopener noreferrer" target="_blank">20 Magnetic fields</a></li>
+<li><a class="topic-link" data-subject="Physics" data-topic="21 Alternating currents" href="https://drive.google.com/file/d/18dx07Msg6dhW3XPEcQlI8y7PkpgFcZ6q/view?usp=drive_web" rel="noopener noreferrer" target="_blank">21 Alternating currents</a></li>
+<li><a class="topic-link" data-subject="Physics" data-topic="22 Quantum physics" href="https://drive.google.com/file/d/19chWIXL9eVog725RCQsTJZAnxXBOEn2s/view?usp=drive_web" rel="noopener noreferrer" target="_blank">22 Quantum physics</a></li>
+<li><a class="topic-link" data-subject="Physics" data-topic="23 Nuclear physics" href="https://drive.google.com/file/d/1UDIhPoRM2JkGAex-gwYLTF7pGp76QSOP/view?usp=drive_web" rel="noopener noreferrer" target="_blank">23 Nuclear physics</a></li>
+<li><a class="topic-link" data-subject="Physics" data-topic="24 Medical physics" href="https://drive.google.com/file/d/1VCXxpfet4XPdJ8pvqsObQvQ2xJJHilcv/view?usp=drive_web" rel="noopener noreferrer" target="_blank">24 Medical physics</a></li>
+<li><a class="topic-link" data-subject="Physics" data-topic="25 Astronomy and cosmology" href="https://drive.google.com/file/d/1OVmEZ1dRhcbeP_IoQFpQJ4TVJPuMPExL/view?usp=drive_web" rel="noopener noreferrer" target="_blank">25 Astronomy and cosmology</a></li>
+</ul>
+</details></div></section>
+<section class="subject-topic-panel" data-topic-panel="Computer Science">
+<div class="topic-panel-heading">
+<div><span class="syllabus-pill">9618</span><h3>Computer Science</h3></div>
+<p>7 syllabus divisions</p>
+</div>
+<div class="topic-groups"><details class="topic-group">
+<summary>Paper 3 and 4<span>7 topics</span></summary>
+<ul>
+<li><a class="topic-link" data-subject="Computer Science" data-topic="13 Data representation" href="https://drive.google.com/file/d/1hrdlfaoQO4Ad-xaK1MOVtAn7nwpvcGs0/view?usp=drive_web" rel="noopener noreferrer" target="_blank">13 Data representation</a></li>
+<li><a class="topic-link" data-subject="Computer Science" data-topic="14 Communication and internet technologies" href="https://drive.google.com/file/d/1W9tolZBrk0viBXYvcDiqA_9FyS_JAaFt/view?usp=drive_web" rel="noopener noreferrer" target="_blank">14 Communication and internet technologies</a></li>
+<li><a class="topic-link" data-subject="Computer Science" data-topic="15 Hardware and virtual machines" href="https://drive.google.com/file/d/1mdIB3v23W1ZTWK8fbztRDGjwlFRU_r_u/view?usp=drive_web" rel="noopener noreferrer" target="_blank">15 Hardware and virtual machines</a></li>
+<li><a class="topic-link" data-subject="Computer Science" data-topic="16 System software" href="https://drive.google.com/file/d/1jqAQuCWUTHcstdMzRdw4RwLEkg7lIZ_Q/view?usp=drive_web" rel="noopener noreferrer" target="_blank">16 System software</a></li>
+<li><a class="topic-link" data-subject="Computer Science" data-topic="17 Security" href="https://drive.google.com/file/d/13XWlYUAYlfSgE8SwC8XQ-LjXsAsO9c8f/view?usp=drive_web" rel="noopener noreferrer" target="_blank">17 Security</a></li>
+<li><a class="topic-link" data-subject="Computer Science" data-topic="18 Artificial intelligence" href="https://drive.google.com/file/d/1-IF55Pb9fK2596XSNGINsx0tfRysNWBc/view?usp=drive_web" rel="noopener noreferrer" target="_blank">18 Artificial intelligence</a></li>
+<li><a class="topic-link" data-subject="Computer Science" data-topic="Practical Combined" href="https://drive.google.com/file/d/1GhKN1yP9XznsPrS6PO7LYPgouH260U7V/view?usp=drive_web" rel="noopener noreferrer" target="_blank">Practical Combined</a></li>
+</ul>
+</details>
+</div></section>
+</div>
+</div>
+</section>
+<script src="script.js"></script>
+</main></body>
 </html>
